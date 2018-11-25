@@ -1,24 +1,24 @@
-package aircraft;
+package strategy;
 
 /**
- * Class Cessna.
+ * Class ModelAircraft.
  *
  * @author Konstantin Alekseev.
  * @version 1.0.
  * @since 17.10.2017.
  */
-public class Cessna extends Aircraft {
+public class ModelAircraft extends Aircraft {
 
     /**
      * Class constructor.
      */
-    public Cessna() {
+    public ModelAircraft() {
         flyBehavior = new FlyWithPropeller();
-        shootBehavior = new Shoot();
+        shootBehavior = new BlankShot();
     }
 
     @Override
     public void display() {
-        System.out.println("I`m a real Cessna");
+        System.out.println("I`m a model aircraft");
     }
 }

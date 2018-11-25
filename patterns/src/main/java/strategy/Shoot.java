@@ -1,16 +1,16 @@
-package aircraft;
+package strategy;
 
 /**
- * Class Laser.
+ * Class Shoot.
  *
  * @author Konstantin Alekseev.
  * @version 1.0.
  * @since 17.10.2017.
  */
-public class Laser implements ShootBehavior {
+public class Shoot implements ShootBehavior {
 
     @Override
     public void shoot() {
-        System.out.println("Laser shot");
+        System.out.println("Bang");
     }
 }

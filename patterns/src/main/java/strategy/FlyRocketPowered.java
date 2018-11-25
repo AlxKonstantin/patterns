@@ -1,4 +1,4 @@
-package aircraft;
+package strategy;
 
 /**
  * Class FlyRocketPowered.

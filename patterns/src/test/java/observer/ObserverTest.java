@@ -1,7 +1,11 @@
 package observer;
 
-public class WeatherStation {
-    public static void main(String[] args) {
+import org.junit.Test;
+
+public class ObserverTest {
+
+    @Test
+    public void whenPassWetherDataThenHasToShowIt() {
         WeatherData weatherData = new WeatherData();
 
         CurrentConditionsDisplay currentDisplay = new CurrentConditionsDisplay(weatherData);

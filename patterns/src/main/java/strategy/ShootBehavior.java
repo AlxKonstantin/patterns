@@ -1,4 +1,4 @@
-package aircraft;
+package strategy;
 
 /**
  * Interface ShootBehavior.
@@ -12,5 +12,5 @@ public interface ShootBehavior {
     /**
      * Method shoot - performs shoot.
      */
-    public void shoot();
+    void shoot();
 }

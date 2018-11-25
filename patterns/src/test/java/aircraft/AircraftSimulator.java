@@ -1,6 +1,10 @@
 package aircraft;
 
 import org.junit.Test;
+import strategy.Aircraft;
+import strategy.Cessna;
+import strategy.FlyRocketPowered;
+import strategy.ModelAircraft;
 
 /**
  * Test Class AircraftSimulator.

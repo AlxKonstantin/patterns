@@ -1,4 +1,4 @@
-package aircraft;
+package strategy;
 
 /**
  * Interface FlyBehavior.
@@ -12,5 +12,5 @@ public interface FlyBehavior {
     /**
      * Method fly - performs fly.
      */
-    public void fly();
+    void fly();
 }

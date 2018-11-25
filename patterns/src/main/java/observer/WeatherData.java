@@ -2,9 +2,20 @@ package observer;
 
 import java.util.ArrayList;
 
+/**
+ * Class WeatherData.
+ *
+ * @author Konstantin Alekseev.
+ * @version 1.0.
+ * @since 17.10.2017.
+ */
 public class WeatherData implements Subject {
 
+    /**
+     * observers - observers storage.
+     */
     private ArrayList observers;
+
     private float temperature;
     private float humidity;
     private float pressure;
@@ -34,10 +45,20 @@ public class WeatherData implements Subject {
         }
     }
 
+    /**
+     * Method measurementsChanged - calls notifyObservers() method.
+     */
     public void measurementsChanged() {
         notifyObservers();
     }
 
+    /**
+     * Method setMeasurements - measurements setter.
+     *
+     * @param temperature - temperature.
+     * @param humidity - humidity.
+     * @param pressure - pressure.
+     */
     public void setMeasurements(float temperature, float humidity, float pressure) {
         this.temperature = temperature;
         this.humidity = humidity;

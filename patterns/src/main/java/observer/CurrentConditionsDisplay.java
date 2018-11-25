@@ -1,5 +1,12 @@
 package observer;
 
+/**
+ * Class CurrentConditionsDisplay.
+ *
+ * @author Konstantin Alekseev.
+ * @version 1.0.
+ * @since 17.10.2017.
+ */
 public class CurrentConditionsDisplay implements Observer, DisplayElement {
 
     private float temperature;
