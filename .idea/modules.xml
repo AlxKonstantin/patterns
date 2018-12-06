@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/calcs/calcs.iml" filepath="$PROJECT_DIR$/calcs/calcs.iml" />
       <module fileurl="file://$PROJECT_DIR$/patterns/patterns.iml" filepath="$PROJECT_DIR$/patterns/patterns.iml" />
-      <module fileurl="file://$PROJECT_DIR$/patters.iml" filepath="$PROJECT_DIR$/patters.iml" />
-      <module fileurl="file://$PROJECT_DIR$/small_apps.iml" filepath="$PROJECT_DIR$/small_apps.iml" />
     </modules>
   </component>
 </project>

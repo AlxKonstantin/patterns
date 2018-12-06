@@ -1,5 +1,7 @@
 package observer;
 
+import observer.selfrealisation.CurrentConditionsDisplay;
+import observer.selfrealisation.WeatherData;
 import org.junit.Test;
 
 public class ObserverTest {
