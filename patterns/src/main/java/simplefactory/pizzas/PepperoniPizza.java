@@ -1,16 +1,16 @@
-package factory.simplefactory.pizzas;
+package simplefactory.pizzas;
 
 /**
- * Class CheesePizza.
+ * Class PepperoniPizza.
  *
  * @author Konstantin Alekseev.
  * @version 1.0.
  * @since 23.01.2018.
  */
-public class CheesePizza implements Pizza {
+public class PepperoniPizza implements Pizza {
 
-    public CheesePizza() {
-        System.out.println("CheesePizza");
+    public PepperoniPizza() {
+        System.out.println("PepperoniPizza");
     }
 
     @Override

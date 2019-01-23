@@ -1,4 +1,4 @@
-package factory.simplefactory.pizzas;
+package simplefactory.pizzas;
 
 /**
  * Interface Pizza.
