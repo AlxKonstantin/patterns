@@ -1,6 +1,6 @@
-package simplefactory;
+package factory.simplefactory;
 
-import simplefactory.pizzas.Pizza;
+import factory.simplefactory.pizzas.Pizza;
 
 /**
  * Class PizzaStore.

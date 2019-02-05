@@ -1,7 +1,7 @@
-package simplefactory;
+package factory.simplefactory;
 
 
-import simplefactory.pizzas.*;
+import factory.simplefactory.pizzas.*;
 
 /**
  * Class SimplePizzaFactory.

@@ -1,4 +1,4 @@
-package simplefactory.pizzas;
+package factory.simplefactory.pizzas;
 
 /**
  * Class PepperoniPizza.
