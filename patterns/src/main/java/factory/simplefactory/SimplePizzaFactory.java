@@ -2,6 +2,10 @@ package factory.simplefactory;
 
 
 import factory.simplefactory.pizzas.*;
+import factory.simplefactory.pizzas.anywhere.CheesePizza;
+import factory.simplefactory.pizzas.anywhere.ClamPizza;
+import factory.simplefactory.pizzas.anywhere.PepperoniPizza;
+import factory.simplefactory.pizzas.anywhere.VeggiePizza;
 
 /**
  * Class SimplePizzaFactory.

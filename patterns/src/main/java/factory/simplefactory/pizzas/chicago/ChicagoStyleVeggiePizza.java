@@ -1,16 +1,18 @@
-package factory.simplefactory.pizzas;
+package factory.simplefactory.pizzas.chicago;
+
+import factory.simplefactory.pizzas.Pizza;
 
 /**
- * Class VeggiePizza.
+ * Class ChicagoStyleVeggiePizza.
  *
  * @author Konstantin Alekseev.
  * @version 1.0.
  * @since 23.01.2018.
  */
-public class VeggiePizza implements Pizza {
+public class ChicagoStyleVeggiePizza implements Pizza {
 
-    public VeggiePizza() {
-        System.out.println("VeggiePizza");
+    public ChicagoStyleVeggiePizza() {
+        System.out.println("ChicagoStyleVeggiePizza");
     }
 
     @Override

@@ -1,16 +1,18 @@
-package factory.simplefactory.pizzas;
+package factory.simplefactory.pizzas.ny;
+
+import factory.simplefactory.pizzas.Pizza;
 
 /**
- * Class ClamPizza.
+ * Class NYStyleCheesePizza.
  *
  * @author Konstantin Alekseev.
  * @version 1.0.
  * @since 23.01.2018.
  */
-public class ClamPizza implements Pizza {
+public class NYStyleCheesePizza implements Pizza {
 
-    public ClamPizza() {
-        System.out.println("ClamPizza");
+    public NYStyleCheesePizza() {
+        System.out.println("NYStyleCheesePizza");
     }
 
     @Override
