@@ -1,10 +1,4 @@
-package factory.simplefactory;
-
-import factory.simplefactory.pizzas.*;
-import factory.simplefactory.pizzas.ny.NYStyleCheesePizza;
-import factory.simplefactory.pizzas.ny.NYStyleClamPizza;
-import factory.simplefactory.pizzas.ny.NYStylePepperoniPizza;
-import factory.simplefactory.pizzas.ny.NYStyleVeggiePizza;
+package factory.factorymethod;
 
 /**
  * Class NYPizzaStore.

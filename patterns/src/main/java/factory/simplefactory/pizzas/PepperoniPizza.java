@@ -1,18 +1,18 @@
-package factory.simplefactory.pizzas.ny;
+package factory.simplefactory.pizzas;
 
-import factory.simplefactory.pizzas.Pizza;
+import factory.simplefactory.Pizza;
 
 /**
- * Class NYStyleCheesePizza.
+ * Class PepperoniPizza.
  *
  * @author Konstantin Alekseev.
  * @version 1.0.
  * @since 23.01.2018.
  */
-public class NYStyleCheesePizza implements Pizza {
+public class PepperoniPizza implements Pizza {
 
-    public NYStyleCheesePizza() {
-        System.out.println("NYStyleCheesePizza");
+    public PepperoniPizza() {
+        System.out.println("PepperoniPizza");
     }
 
     @Override

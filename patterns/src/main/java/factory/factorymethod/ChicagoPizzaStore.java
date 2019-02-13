@@ -1,10 +1,4 @@
-package factory.simplefactory;
-
-import factory.simplefactory.pizzas.Pizza;
-import factory.simplefactory.pizzas.chicago.ChicagoStyleCheesePizza;
-import factory.simplefactory.pizzas.chicago.ChicagoStyleClamPizza;
-import factory.simplefactory.pizzas.chicago.ChicagoStylePepperoniPizza;
-import factory.simplefactory.pizzas.chicago.ChicagoStyleVeggiePizza;
+package factory.factorymethod;
 
 /**
  * Class ChicagoPizzaStore.

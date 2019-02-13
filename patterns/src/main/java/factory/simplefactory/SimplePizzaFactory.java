@@ -2,10 +2,7 @@ package factory.simplefactory;
 
 
 import factory.simplefactory.pizzas.*;
-import factory.simplefactory.pizzas.anywhere.CheesePizza;
-import factory.simplefactory.pizzas.anywhere.ClamPizza;
-import factory.simplefactory.pizzas.anywhere.PepperoniPizza;
-import factory.simplefactory.pizzas.anywhere.VeggiePizza;
+
 
 /**
  * Class SimplePizzaFactory.
@@ -15,19 +12,19 @@ import factory.simplefactory.pizzas.anywhere.VeggiePizza;
  * @since 23.01.2018.
  */
 public class SimplePizzaFactory {
-     public Pizza createPizza(String type) {
-         Pizza pizza = null;
+    public Pizza createPizza(String type) {
+        Pizza pizza = null;
 
-         if (type.equals("cheese")) {
-             pizza = new CheesePizza();
-         } else if (type.equals("pepperoni")) {
-             pizza = new PepperoniPizza();
-         } else if (type.equals("clam")) {
-             pizza = new ClamPizza();
-         } else if (type.equals("veggie")) {
-             pizza = new VeggiePizza();
-         }
+        if (type.equals("cheese")) {
+            pizza = new CheesePizza();
+        } else if (type.equals("pepperoni")) {
+            pizza = new PepperoniPizza();
+        } else if (type.equals("clam")) {
+            pizza = new ClamPizza();
+        } else if (type.equals("veggie")) {
+            pizza = new VeggiePizza();
+        }
 
-         return pizza;
-     }
+        return pizza;
+    }
 }
